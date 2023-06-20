@@ -74,6 +74,15 @@
 			"cross_year": "No",
 			"attribute": "No"
 		},
+		"inc_interest": {
+			"type": "float",
+			"desc": "Income from interest",
+			"form": {
+				"2019": "pit_peru"
+			},
+			"cross_year": "No",
+			"attribute": "No"
+		},
 		"inc_cap_other": {
 			"type": "float",
 			"desc": "Other income  from capital disposition - 2nd category",
@@ -239,6 +248,13 @@
 				"2019": "pit_peru"
 			}
 		},
+		"income_interest": {
+			"type": "float",
+			"desc": "income from interest",
+			"form": {
+				"2019": "pit_peru"
+			}
+		},
 		"income_ind_work": {
 			"type": "float",
 			"desc": "income from independent work - wages, compensation",
@@ -291,6 +307,13 @@
 		"ded_div": {
 			"type": "float",
 			"desc": "Deduction - income from dividends",
+			"form": {
+				"2019": "pit_peru"
+			}
+		},
+		"ded_interest": {
+			"type": "float",
+			"desc": "Deduction - income from interest",
 			"form": {
 				"2019": "pit_peru"
 			}
